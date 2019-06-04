@@ -5,11 +5,12 @@
  */
 
 export const colors = {
-  primary: '#F5B22D',
+  primary: '#F52D56',
   secondary: '#FFF',
   accent: '#000',
   darkGrey: '#9B9B9B',
   lightGrey: '#C1C0C9',
+  veryLightGrey: '#F8F8F8',
   background: this.secondary
 };
 
@@ -46,8 +47,10 @@ export const fonts = {
   heavy: '900',
   title: 36,
   headerTitle: 17,
+  cardSectionTitle: 20,
   searchBarTitle: 17,
   secondaryTitle: 34,
+  callToAction: 16,
   sectionTitle: 15,
   bodyText: 15,
   cardTitle: 15,

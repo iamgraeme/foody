@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 import { View, Text, Button, Image } from 'react-native';
 import PropTypes from 'prop-types';
 import { AppContainer } from 'app/layouts';
-import { HeaderWithSearch } from 'app/components';
+import { HeaderWithSearch, CardSection } from 'app/components';
 
 // import redux functions to connect controller to app state
 import { connect } from 'react-redux';
@@ -48,6 +48,7 @@ class Home extends Component {
 	  return (
 	    <AppContainer>
 	      <HeaderWithSearch title="Browse" />
+	      <CardSection />
 	    </AppContainer>
 	  );
 	}
