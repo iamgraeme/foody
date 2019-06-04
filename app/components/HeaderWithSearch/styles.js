@@ -4,7 +4,7 @@ const width = Dimensions.get('window').width;
 export default StyleSheet.create({
   container: {
     width,
-    paddingHorizontal: 20,
+    paddingHorizontal: 15,
     height: sizes.header.height,
     backgroundColor: colors.primary,
     justifyContent: 'flex-end',

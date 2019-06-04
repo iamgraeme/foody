@@ -5,7 +5,7 @@ const width = Dimensions.get('window').width;
 export default StyleSheet.create({
   container: {
     height: sizes.search.height,
-    width: width - 40,
+    width: width - 30,
     borderRadius: sizes.search.borderRadius,
     backgroundColor: colors.secondary,
     flexDirection: 'row',
