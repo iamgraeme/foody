@@ -4,7 +4,7 @@
 
 // import react and react-native elements
 import React, { Component } from 'react';
-import { View, Text, Button, Image } from 'react-native';
+import { ScrollView, View, Text, Button, Image } from 'react-native';
 import PropTypes from 'prop-types';
 import { AppContainer } from 'app/layouts';
 import { HeaderWithSearch, CardSection } from 'app/components';
@@ -48,7 +48,9 @@ class Home extends Component {
 	  return (
 	    <AppContainer>
 	      <HeaderWithSearch title="Browse" />
-	      <CardSection />
+	      <ScrollView contentContainerStyle={{ justifyContent: 'flex-start', alignItems: 'center' }}>
+	        <CardSection />
+	      </ScrollView>
 	    </AppContainer>
 	  );
 	}

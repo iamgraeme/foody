@@ -5,10 +5,10 @@ const width = Dimensions.get('window').width;
 
 export default StyleSheet.create({
   container: {
-    height: 300,
+    height: 285,
     width
   },
   listView: {
-    marginLeft: 20
+    paddingLeft: 20
   }
 });

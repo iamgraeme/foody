@@ -13,8 +13,11 @@
 		"flow-bin": "^0.69.0",
 		"react": "16.8.3",
 		"react-native": "0.59.8",
+		"react-native-fast-image": "^6.0.3",
 		"react-native-fs": "^2.10.14",
 		"react-native-gesture-handler": "^1.0.9",
+		"react-native-star-rating": "^1.1.0",
+		"react-native-vector-icons": "^6.4.2",
 		"react-navigation": "^3.0.0",
 		"react-redux": "^5.0.6",
 		"redux": "^3.7.2",
@@ -54,6 +57,8 @@
 		}
 	},
 	"rnpm": {
-		"assets": ["./app/assets/fonts"]
+		"assets": [
+			"./app/assets/fonts"
+		]
 	}
 }

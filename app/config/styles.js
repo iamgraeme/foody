@@ -11,7 +11,8 @@ export const colors = {
   darkGrey: '#9B9B9B',
   lightGrey: '#C1C0C9',
   veryLightGrey: '#F8F8F8',
-  background: this.secondary
+  background: '#FFF',
+  starYellow: '#FFC700'
 };
 
 export const sizes = {
@@ -57,6 +58,18 @@ export const fonts = {
   cardSubTitle: 13,
   cardPrice: 15,
   buttonTitle: 17
+};
+
+export const boxWithShadow = {
+  shadowColor: colors.accent,
+  shadowOffset: {
+    width: 0,
+    height: 2
+  },
+  shadowOpacity: 0.25,
+  shadowRadius: 3.84,
+
+  elevation: 5
 };
 
 export const fullFlexContainer = {
